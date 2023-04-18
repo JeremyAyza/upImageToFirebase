@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1076185397921",
+    "project_id": "imagefire-42061",
+    "storage_bucket": "imagefire-42061.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076185397921:android:03a8edec1849602affcee0",
+        "android_client_info": {
+          "package_name": "pe.edu.idat.imagefire.jeremy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076185397921-j64v3ms38b9l5shr62suj1an0jal7cv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFviGrDh_aWpmaqCs38dsKIajnYfI7VU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076185397921-j64v3ms38b9l5shr62suj1an0jal7cv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="IMAGE FIRE"
+            android:textStyle="bold"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/ivImagenSeleccionada"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tvImagenSeleccionada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Imagen: "
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnSeleccionarImagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Seleccionar Imagen" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</FrameLayout>
